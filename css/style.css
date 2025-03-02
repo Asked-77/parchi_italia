@@ -34,7 +34,7 @@ h2{
     }
 
     p{
-        font-size: 10px;
+        font-size: 12px;
     }
     
 }
@@ -225,7 +225,7 @@ header nav a:hover{
     }
 
     .hero p{
-        font-size:10px;
+        font-size:12px;
     }
 }
 
@@ -243,6 +243,7 @@ header nav a:hover{
   }
 
 .container {
+    
     display: grid;
     justify-self: center;
     justify-content: center; 
@@ -299,14 +300,17 @@ header nav a:hover{
 }
 
 @media (max-width:600px){
+
+    
+
+
     .container {
        display: block;
-       
+       width: 100%;
     }
 
     .container img{
-        max-width: 400px;
-        max-height: 200px;
+        max-height: 160px;
         margin-block:28px;
         
     }
@@ -681,7 +685,7 @@ header nav a:hover{
     }
 
     .container_parco_2 p{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .itema1{
