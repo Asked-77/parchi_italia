@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attività</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="img/logo/logo_parco_1-01.svg" alt=""></a>
+      <p><a href="index.html">Parchi d'Italia</a></p>
+     </div>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="parchi.html">Parchi</a></li>
+          <li><a href="flora_e_fauna.html">Flora e Fauna</a></li>
+          <li><div class="pagina_corrente"><a href="#">Attività</a></div></li>
+        </ul>
+    </nav>
+  </header>
+
+<main>
+
+  <section class="info">
+    <div class="info_testo">
+        <h2>Attività</h2>
+    </div>
+    <div class="info_image">
+        <img src="img/attivita/info_attivita 2.jpg
+        " alt"" srcset="">
+    </div>
+  </section>
+
+  <section class="hero">
+    <div>
+        <h2>
+          I parchi naturali italiani offrono esperienze uniche per esplorare paesaggi straordinari
+        </h2>
+        <p>trekking panoramici, birdwatching, vulcani attivi e sentieri immersi nella biodiversità di monti e foreste.</p>
+    </div>
+  </section>
+
+<section class="slider_attivita_container">
+       
+     <!--slide 1-->
+    <div class="mySlides fade">   
+      <div class="slide_box">
+        <div class="image_slider">
+          <img src="img/attivita/trekking_dolomiti.webp" style="width:100%">
+        </div>
+        <div class="text_slider">
+          <h2>Trekkings sull’Alta Via delle Dolomiti</h2>
+          <p>
+            L'Alta Via delle Dolomiti è una rete di sentieri spettacolari che attraversano cime, vallate e paesaggi mozzafiato. Ogni tappa collega rifugi alpini, offrendo un'esperienza unica tra natura incontaminata, flora endemica e panorami patrimonio UNESCO. 
+          </p>
+          <a href="dolomiti.html">
+            <div class="button_visita_parco">
+                Visita il parco ➜
+            </div>
+          </a>
+          
+        </div>
+        
+        <div class="button_slider">        
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>       
+      </div>
+    </div>
+
+   <!--slide 2-->
+    <div class="mySlides fade">   
+      <div class="slide_box">
+        <div class="image_slider">
+          <img src="img/fauna/gipeto_gran_paradiso_2.jpg" style="width:100%">
+        </div>
+        <div class="text_slider">
+          <h2>Birdwatching al Gran Paradiso</h2>
+          <p>
+            Il Parco Nazionale del Gran Paradiso è un paradiso per gli amanti del birdwatching. Qui puoi osservare aquile reali, gipeti, e rapaci alpini che solcano i cieli, oltre a specie migratorie rare. I punti di osservazione si trovano lungo i sentieri più tranquilli del parco. 
+          </p>
+          <a href="parco_granparadiso.html">
+            <div class="button_visita_parco">
+                Visita il parco ➜
+            </div>
+          </a>
+        </div>
+        <div class="button_slider">
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </div>
+    </div>
+
+  <!--slide 3-->
+    <div class="mySlides fade">   
+      <div class="slide_box">
+        <div class="image_slider">
+          <img src="img/attivita/etna_5.png" style="width:100%">
+        </div>
+        <div class="text_slider">
+          <h2>Escursioni sui crateri dell’Etna:</h2>
+          <p>Esplorare l’Etna significa camminare su un vulcano vivo, circondati da paesaggi lunari e crateri fumanti. Escursioni guidate portano alla scoperta di colate laviche recenti, formazioni uniche e vedute spettacolari sul Mar Ionio e la Sicilia orientale.
+          </p>
+          <a href="etna.html">
+            <div class="button_visita_parco">
+                Visita il parco ➜
+            </div>
+          </a>
+        </div>
+        <div class="button_slider">
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </div>
+    </div>
+
+    <!--slide 4-->
+    <div class="mySlides fade">   
+      <div class="slide_box">
+        <div class="image_slider">
+          <img src="img/attivita/pollino.jpg" style="width:100%">
+        </div>
+        <div class="text_slider">
+          <h2>Percorsi naturalistici nel Pollino:</h2>
+          <p>Nel Parco Nazionale del Pollino, i percorsi naturalistici conducono tra boschi di faggi, distese di pini loricati e gole profonde. Ideali per gli escursionisti, i sentieri offrono la possibilità di incontrare lupi appenninici e cervi, oltre a scoprire panorami straordinari.
+          </p>
+          <a href="pollino.html">
+            <div class="button_visita_parco">
+                Visita il parco ➜
+            </div>
+          </a>
+        </div>
+        <div class="button_slider">
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+      </div>
+    </div>
+    
+</section>
+  <br>
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+  <script src="script.js"></script>
+
+  <section class="background_footer">
+    <div class="footer">
+        <div class="item_footer1">
+            <h3>
+            CHI SHIAMO
+            </h3>
+            <p>Parchi d’Italia è un sito web<br> informativo relativo a quattro<br> parchi nazionali italiani.</p>
+        </div>
+
+        <div class="item_footer2">
+            <h3>
+            SOCIAL
+            </h3>
+            <p>Facebook <br>Instagram<br>Behance<br>Pinterest</p>
+        </div>
+
+        <div class="item_footer3">
+            <h3>
+            INFORMAZIONI
+            </h3>
+            <p>Privacy</p>
+            <br>
+            <p>Copyright © 2025  Parchi D’Italia.</p>
+        </div>
+        <div class="logo_footer">
+            <img src="img/logo/logo_parco_1-01_bianco-01.svg" alt=""></a>
+            <p>PARCHI D'ITALIA</p>
+        </div>
+    </div> 
+</section>
+
+
+
+
+
+
+</main>
+</body>
+</html>
+
+
+
